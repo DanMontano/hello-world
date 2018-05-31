@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: '<h2> {{ "Title:" + title }}</h2>'
 })
 
-export class CourseComponent {
+export class CoursesComponent {
     title = "List of Courses"
   
     getTitle() {
